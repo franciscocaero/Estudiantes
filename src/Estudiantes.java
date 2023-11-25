@@ -1,8 +1,8 @@
 public class Estudiantes {
-    private String nombre;
-    private String apellido;
-    private int edad;
-    private String carrera;
+    public String nombre;
+    public String apellido;
+    public int edad;
+    public String carrera;
 
     public Estudiantes(String nuevoNombre,String nuevoApellido,int nuevaEdad,String nuevaCarrera) {
         nombre = nuevoNombre;
